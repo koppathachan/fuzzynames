@@ -3,6 +3,8 @@ import fs from 'fs';
 import fuzzy from 'fuzzy';
 import { parse } from 'csv-parse';
 
+const test = (parts, pattern) => parts.some(part => fuzzy.test(part, pattern))
+
 export class FuzzyCompare extends Transform {
   first = true;
   _destroy(err, cb) {
@@ -10,7 +12,7 @@ export class FuzzyCompare extends Transform {
   }
 
   _transform(obj, encoding, cb) {
-    const data = this.first && [...obj, 'Result'] || [...obj, fuzzy.test(obj[1], obj[0])];
+    const data = this.first && [...obj, 'Result'] || [...obj, test(obj[1].split(' '), obj[0])];
     if (this.first) { this.first = false; }
     this.push(data);
     cb();
