@@ -1,16 +1,16 @@
-Bank Name,KYC Name,Result
-Mx Ela A ,Ela A,false
-Mx. Ela Anderson,Ela Anderson,false
-Mrs. Ella Anderson,Ella Anderson,false
-Ella Anderson,Ella Anderson,false
-Miss Jennifer Sply,Jennifer Sply,false
-Mr. Dan Johnson,Dan Johnson,false
-Mr Damien Hearst,Damien Hearst,false
-Damien Hearst,Damien Hearst,false
-Miss  Diana  W,Diana  W,false
-Damien  Hearst,Damien Hearst,false
-mr. some name,some name,false
-Something,Nothing,false
-Akhil Sasidharan,Abhai Sasidharan,false
-Akhil Sasidharan,Sasidharan, Akhil,false
-Akhil Sasidharan,Sasidharan, Abhai,false
+"Bank Name","KYC Name","Result"
+"Mx Ela A ","Ela A","true"
+"Mx. Ela Anderson","Ela Anderson","true"
+"Mrs. Ella Anderson","Ella Anderson","true"
+"Ella Anderson","Ella Anderson","true"
+"Miss Jennifer Sply","Jennifer Sply","true"
+"Mr. Dan Johnson","Dan Johnson","true"
+"Mr Damien Hearst","Damien Hearst","true"
+"Damien Hearst","Damien Hearst","true"
+"Miss  Diana  W","Diana  W","true"
+"Damien  Hearst","Damien Hearst","true"
+"mr. some name","some name","true"
+"Something","Nothing","false"
+"Akhil Sasidharan","Abhai Sasidharan","true"
+"Akhil Sasidharan","Sasidharan, Akhil","true"
+"Akhil Sasidharan","Sasidharan, Abhai","false"

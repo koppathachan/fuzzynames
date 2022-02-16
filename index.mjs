@@ -28,7 +28,8 @@ export class JSONtoCsv extends Transform {
   }
 
   _transform(obj, encoding, cb) {
-    this.push(obj.join(',') + '\n');
+    const str = obj.map(o => `"${o}"`).join(',') + '\n';
+    this.push(str);
     cb();
   }
   constructor(){
